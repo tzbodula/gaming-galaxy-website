@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model merch {
+  merch_id          Int    @id
+  merch_name        String @db.VarChar(255)
+  merch_description String @db.VarChar(300)
+  image_1           String @db.VarChar(255)
+  image_2           String @db.VarChar(255)
+  image_3           String @db.VarChar(255)
+  image_4           String @db.VarChar(255)
+  highlight_1       String @db.VarChar(255)
+  highlight_2       String @db.VarChar(255)
+  highlight_3       String @db.VarChar(255)
+  highlight_4       String @db.VarChar(255)
+  merch_details     String @db.VarChar(255)
+  merch_price       String @db.VarChar(20)
+}
