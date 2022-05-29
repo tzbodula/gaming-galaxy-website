@@ -5,7 +5,8 @@
     "dev": "next start",
     "build": "next build",
     "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix-import": "./scripts/fix-import.sh"
   },
   "author": "Thomas Zbodula <tzbodula@gmail.com>",
   "dependencies": {

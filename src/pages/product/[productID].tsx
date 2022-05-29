@@ -4,6 +4,8 @@ import Fade from 'react-reveal/Fade'
 
 import Image from 'next/image';
 
+import { GetServerSideProps } from 'next';
+
 const prisma = new PrismaClient();
 
 function ProductDetail({ results: product }) {
@@ -83,7 +85,7 @@ function ProductDetail({ results: product }) {
     )
 }
 
-export async function getServerSideProps(context) {
+export const getServerSideProps: GetServerSideProps = async (context) => {
 
     const productDetails = await prisma.merch.findUnique({
         where: {

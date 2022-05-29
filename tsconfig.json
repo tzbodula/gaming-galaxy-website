@@ -22,8 +22,10 @@
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "src/components/social-logins.js", "src/components/email-form.js"  ],
+    "**/*.tsx",
+    "src/components/social-logins.js",
+    "src/components/email-form.js"
+  ],
   "exclude": [
     "node_modules"
   ]

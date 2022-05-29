@@ -4,17 +4,16 @@ import { DefaultSeo } from "next-seo";
 import "tailwindcss/tailwind.css";
 import "../styles/app.css";
 import "../styles/responsive.css";
-
 import "../styles/style.css";
 import "../styles/snipcart.css";
 
-import { defaultSEO } from "./next-seo.config";
-import { WishlistProvider } from "./src/context/wishlist";
-import Layout from "./src/components/Layout";
+import { defaultSEO } from "../../next-seo.config";
+import { WishlistProvider } from "../context/wishlist";
+import Layout from "../components/Layout";
 
 import { useState, useEffect } from "react";
-import { UserContext } from "./src/context/userContext";
-import { magic } from "./src/lib/magic";
+import { UserContext } from "../context/userContext";
+import { magic } from "../lib/magic";
 
 
 function MyApp({ Component, pageProps }: AppProps) {
