@@ -1,6 +1,6 @@
 import useWishlistState from "../hooks/useWishlistState";
 
-import ProductGrid from "./ProductGrid";
+import ProductGrid from "../components/ProductGrid";
 
 const WishlistPage = () => {
   const { hasItems, items } = useWishlistState();

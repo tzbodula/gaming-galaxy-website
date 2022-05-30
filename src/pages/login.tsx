@@ -2,8 +2,8 @@ import { useState, useEffect, useContext } from "react";
 import Router from "next/router";
 import { magic } from "../lib/magic";
 import { UserContext } from "../context/userContext";
-import EmailForm from "./email-form";
-import SocialLogins from "./social-logins";
+import EmailForm from "../components/email-form";
+import SocialLogins from "../components/social-logins";
 
 
 const Login = () => {
