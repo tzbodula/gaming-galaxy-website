@@ -10,6 +10,7 @@ import "../styles/snipcart.css";
 import { defaultSEO } from "../../next-seo.config";
 import { WishlistProvider } from "../context/wishlist";
 import Layout from "../components/Layout";
+import {ErrorBoundary} from 'react-error-boundary'
 
 import { useState, useEffect } from "react";
 import { UserContext } from "../context/userContext";
@@ -34,14 +35,14 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <WishlistProvider>
-      <UserContext.Provider value={[user, setUser]}>
-        <Layout>
-          <DefaultSeo {...defaultSEO} />
-          <Component {...pageProps} />
-        </Layout>
-      </UserContext.Provider>
-    </WishlistProvider>
+      <WishlistProvider>
+        <UserContext.Provider value={[user, setUser]}>
+          <Layout>
+            <DefaultSeo {...defaultSEO} />
+            <Component {...pageProps} />
+          </Layout>
+        </UserContext.Provider>
+      </WishlistProvider>
   );
 }
 
