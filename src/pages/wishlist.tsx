@@ -12,7 +12,7 @@ const WishlistPage = () => {
       </div>
 
       {hasItems ? (
-        <ProductGrid products={items} />
+        <ProductGrid products={items} filter="Wishlist"/>
       ) : (
         <p className="text-center text-cloudy-day">Your list is empty</p>
       )}
