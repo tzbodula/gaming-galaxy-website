@@ -8,7 +8,7 @@ datasource db {
 }
 
 model merch {
-  type        String  @id @db.VarChar(50)
+  id          String  @id @db.VarChar(50)
   slug        String  @db.VarChar(50)
   linkname    String  @db.VarChar(50)
   description String? @db.VarChar(1000)

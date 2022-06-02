@@ -221,7 +221,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
     const productData = await prisma.merch.findUnique({
         where: {
-            type: productType
+            id: productType
         }
     })
 
