@@ -15,6 +15,9 @@ import MerchBox from '../../public/img/bg/MerchBox.png'
 import Fade from 'react-reveal/Fade';
 
 import ProductGrid from "../components/ProductGrid";
+
+import { GetServerSideProps } from "next";
+
 import { type } from "os";
 
 type IndexPageProps = {
@@ -55,7 +58,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
   </>
 );
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const { result: productIds } = await printful.get("sync/products?limit=100");
 
   const allProducts = await Promise.all(

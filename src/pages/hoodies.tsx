@@ -1,5 +1,5 @@
 import * as React from "react";
-import { GetStaticProps } from "next";
+import { GetServerSideProps, GetStaticProps } from "next";
 import shuffle from "lodash.shuffle";
 
 import { printful } from "../lib/printful-client";
@@ -55,7 +55,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
   </>
 );
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getServerSideProps: GetServerSideProps = async () => {
   const { result: productIds } = await printful.get("sync/products?limit=100");
 
   const allProducts = await Promise.all(
