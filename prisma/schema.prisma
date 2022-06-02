@@ -8,17 +8,12 @@ datasource db {
 }
 
 model merch {
-  merch_id          Int    @id
-  merch_name        String @db.VarChar(255)
-  merch_description String @db.VarChar(300)
-  image_1           String @db.VarChar(255)
-  image_2           String @db.VarChar(255)
-  image_3           String @db.VarChar(255)
-  image_4           String @db.VarChar(255)
-  highlight_1       String @db.VarChar(255)
-  highlight_2       String @db.VarChar(255)
-  highlight_3       String @db.VarChar(255)
-  highlight_4       String @db.VarChar(255)
-  merch_details     String @db.VarChar(255)
-  merch_price       String @db.VarChar(20)
+  type        String  @id @db.VarChar(50)
+  slug        String  @db.VarChar(50)
+  linkname    String  @db.VarChar(50)
+  description String? @db.VarChar(1000)
+  highlight1  String? @db.VarChar(1000)
+  highlight2  String? @db.VarChar(1000)
+  highlight3  String? @db.VarChar(1000)
+  highlight4  String? @db.VarChar(1000)
 }

@@ -12,6 +12,8 @@ import MerchBox from '../../public/img/bg/MerchBox.png'
 
 import Fade from 'react-reveal/Fade';
 
+import Link from "next/link";
+
 import ProductGrid from "../components/ProductGrid";
 import { type } from "os";
 
@@ -30,14 +32,34 @@ const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
       </div>
     </Fade>
     <Fade up>
-      <ProductGrid products={products} filter="Shirt" />
+    <div className="pr-80">
+      <nav aria-label="Breadcrumb place-items-center">
+        <ol role="list" className="max-w-2xl mx-auto px-4 flex place-items-center space-x-2 sm:px-6 lg:max-w-7xl lg:px-8">
+          <li className="">
+            <div className="flex place-items-center">
+              <div className="">
+                <Link href="/merch"><a className="mr-2 text-sm font-oxanium-bold text-sunset-pink"> Merch </a></Link>
+              </div>
+              <svg width="16" height="20" viewBox="0 0 16 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" className="w-4 h-5 text-gray-300">
+                <path d="M5.697 4.34L8.98 16.532h1.327L7.025 4.341H5.697z" />
+              </svg>
+            </div>
+          </li>
+
+          <li className="text-sm pt-0.5">
+            <a aria-current="page" className="font-oxanium-bold text-sunset-pink hover:text-cloudy-day"> Shirts </a>
+          </li>
+        </ol>
+      </nav>
+      </div>
+      <ProductGrid products={products} filter={["Shirt", "Crop Top", "Polo Shirt", "Long Sleeve", "Tank Top"]} />
     </Fade>
   </>
 
 );
 
 export const getStaticProps: GetStaticProps = async () => {
-  const { result: productIds } = await printful.get("sync/products");
+  const { result: productIds } = await printful.get("sync/products?limit=100");
 
   const allProducts = await Promise.all(
     productIds.map(async ({ id }) => await printful.get(`sync/products/${id}`))
