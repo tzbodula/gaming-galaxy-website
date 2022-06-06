@@ -184,44 +184,44 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
     let productName = printfulProductInfo.result.sync_product.name
 
-    let productType = ""
+    let productType = ''
 
-    if (productName.includes("Poster")) {
-        productType="Poster"
-    } else if (productName.includes("T-Shirt")) {
-        productType="Shirt"
-    } else if (productName.includes("Hoodie")) {
-        productType="Hoodie"
-    } else if (productName.includes("Sweatshirt")) {
-        productType="Sweatshirt"
-    } else if (productName.includes("Case")) {
-        productType="Case"
-    } else if (productName.includes("Hat")) {
-        productType="Hat"
-    } else if (productName.includes("Notebook")) {
-        productType="Notebook"
-    } else if (productName.includes("Mouse Pad")) {
-        productType="Mouse Pad"
-    } else if (productName.includes("Crop Top")) {
-        productType="Crop Top"
-    } else if (productName.includes("Tank Top")) {
-        productType="Tank Top"
-    } else if (productName.includes("Long Sleeve")) {
-        productType="Long Sleeve"
-    } else if (productName.includes("Polo Shirt")) {
-        productType="Polo Shirt"
-    } else if (productName.includes("Mouse Pad")) {
-        productType="Mouse Pad"
+    if (productName.includes('Poster')) {
+        productType='Poster'
+    } else if (productName.includes('T-Shirt')) {
+        productType='Shirt'
+    } else if (productName.includes('Hoodie')) {
+        productType='Hoodie'
+    } else if (productName.includes('Sweatshirt')) {
+        productType='Sweatshirt'
+    } else if (productName.includes('Case')) {
+        productType='Case'
+    } else if (productName.includes('Hat')) {
+        productType='Hat'
+    } else if (productName.includes('Notebook')) {
+        productType='Notebook'
+    } else if (productName.includes('Mouse Pad')) {
+        productType='Mouse Pad'
+    } else if (productName.includes('Crop Top')) {
+        productType='Crop Top'
+    } else if (productName.includes('Tank Top')) {
+        productType='Tank Top'
+    } else if (productName.includes('Long Sleeve')) {
+        productType='Long Sleeve'
+    } else if (productName.includes('Polo Shirt')) {
+        productType='Polo Shirt'
+    } else if (productName.includes('Mouse Pad')) {
+        productType='Mouse Pad'
     } 
     else {
-        productType="ERROR"
+        productType='ERROR'
     }
 
     const prisma = new PrismaClient()
 
     const productData = await prisma.merch.findUnique({
         where: {
-            id: productType.toString()
+            id: productType
         }
     })
 
