@@ -3,8 +3,15 @@ import { DefaultSeo } from "next-seo";
 
 import "tailwindcss/tailwind.css";
 import "../styles/app.css";
+import "../styles/animate.min.css";
+import "../styles/default.css";
+import "../styles/meanmenu.css";
+import "../styles/odometer.css";
+import "../styles/owl.carousel.min.css";
+import "../styles/aos.css";
 import "../styles/responsive.css";
 import "../styles/style.css";
+import "../styles/slick.css";
 import "../styles/snipcart.css";
 
 import { defaultSEO } from "../../next-seo.config";

@@ -60,6 +60,11 @@
   text-align: center;
 }
 
+h2 span {
+  color: #ce4993;
+  font-family: oxanium-semibold;
+}
+
 .login-bkg {
   display: flex;
   justify-content: center;
@@ -156,6 +161,11 @@ margin-bottom: 5px;
   mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.375) 100%);
 }
 
+.gradient-package {
+	transition: .3s linear;
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.6) 100%);
+}
+
 .gradient:hover {
   transition: .3s linear;
   mask-image: linear-gradient(360deg, rgba(255, 0, 0, 0) 0%,rgba(0,0,0,1) 100%);
@@ -190,3 +200,10 @@ margin-bottom: 5px;
   letter-spacing:-.02em;
 }
 
+.icon-padding {
+  margin-left: 0.25rem;
+}
+
+.search-database {
+  background-image: url(../../public/img/bg/area_bg01.jpg);
+}

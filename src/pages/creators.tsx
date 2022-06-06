@@ -9,7 +9,7 @@ function Creators() {
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <Fade right>
-      <div className="z-10 -mt-12 2xl:-mt-18">
+      <div className="z-10 -mt-12 2xl:-mt-18 text-center">
         <Image src={CreatorsBox} alt="Gaming Galaxy Creators Box "></Image>
       </div>
       </Fade>
@@ -17,6 +17,7 @@ function Creators() {
       <div className="grid grid-rows-2 grid-cols-2 md:grid-rows-1 md:grid-cols-4 -mt-12 2xl:-mt-28 pb-12 ">
         <div className="text-cloudy-day text-center h-fit m-5 ">
           <div className="pt-4 pb-4">
+          <Link href="/guides" passHref>
             <svg className="container-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
               <defs>
                 <clipPath id="clip1" >
@@ -27,10 +28,12 @@ function Creators() {
               <text className="font-oxanium-bold text-cloudy-day  " transform="scale(4, 4)" x="16" y="205" fill="#F1F0F9">GUIDES AND</text>
               <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="19" y="220" fill="#F1F0F9">TUTORIALS</text>
             </svg>
+            </Link>
           </div>
         </div>
         <div className="text-cloudy-day text-center h-fit m-5  ">
           <div className="pt-4 pb-4">
+          <Link href="/premade" passHref>
             <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930" >
             <defs>
                 <clipPath id="clip1">
@@ -38,9 +41,11 @@ function Creators() {
                 </clipPath>
               </defs>
               <image width="566" height="936" className="gradient border-2 border-cloudy-day hover:shadow-2xl hover:shadow-sunset-pink/50" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/pdXhDFFJ/Premade-Box.png"></image>
+              
               <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="23" y="205" fill="#F1F0F9">PREMADE</text>
-              <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="19" y="220" fill="#F1F0F9">PRODUCTS</text>
+                <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="19" y="220" fill="#F1F0F9">PRODUCTS</text>
             </svg>
+            </Link>
           </div>
         </div>
         <div className="text-cloudy-day text-center h-fit m-5 ">

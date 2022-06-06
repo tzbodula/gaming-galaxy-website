@@ -58,9 +58,9 @@ function FeaturesArea() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6 w-content">
-              <div className="features-item mb-30">
-                <div className="features-head mb-35">
+            <div className="w-content">
+              <div className="features-item ">
+                <div className="features-head">
                   <div className="product-tag reason-headline">
                     <Link href="/#" passHref>
                       <p>REASON 2</p>
@@ -93,9 +93,9 @@ function FeaturesArea() {
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-md-6">
-              <div className="features-item mb-30">
-                <div className="features-head mb-35">
+            <div className="w-content">
+              <div className="features-item">
+                <div className="features-head">
                   <div className="product-tag reason-headline">
                     <Link href="/#" passHref>
                       <p>REASON 3</p>

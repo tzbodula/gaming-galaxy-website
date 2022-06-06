@@ -49,7 +49,7 @@
     font-style: normal;
 }
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'oxanium', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
@@ -4967,15 +4967,21 @@ ul.minicart .cart-price .new {
 }
 .home-five-banner .banner-content .title-one,
 .home-six-banner .banner-content .title-one {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'oxanium', sans-serif;
     text-transform: uppercase;
     font-size: 80px;
     line-height: .9;
     margin-bottom: 12px;
 }
+
+.pinkhighlight span {
+	color: #ce4993
+}
+
+
 .home-five-banner .banner-content .title-two,
 .home-six-banner .banner-content .title-two {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'oxanium', sans-serif;
     text-transform: uppercase;
     font-size: 50px;
     font-style: italic;
@@ -5075,10 +5081,9 @@ ul.minicart .cart-price .new {
 }
 .hf-section-title .title {
     text-transform: uppercase;
-    font-weight: 700;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 26px;
+    color: #F1F0F9;
+    font-family: 'oxanium', sans-serif;
+    font-size: 25px;
     position: relative;
     line-height: 1;
     margin-bottom: 0;
@@ -5232,7 +5237,7 @@ ul.minicart .cart-price .new {
 .live-stream-item .content {
     position: absolute;
     left: 35px;
-    bottom: 35px;
+
     width: 60%;
     z-index: 1;
 }
@@ -5252,16 +5257,16 @@ ul.minicart .cart-price .new {
 }
 .live-stream-meta ul li a {
 	display: block;
-    background: #c8ff0b;
+    background: #ce4993;
     color: #2a2c36;
     padding: 5px 12px;
     box-shadow: 0px 3px 10px 0px rgba(39, 39, 40, 0.36);
     border-radius: 4px;
 }
 .live-stream-item .content .title {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Oxanium', sans-serif;
     line-height: 1.6;
 }
 .live-stream-item .content .title a:hover {
@@ -5599,14 +5604,13 @@ ul.minicart .cart-price .new {
     padding: 35px 0;
 }
 .home-six-header .navbar-wrap ul li > .submenu {
-    border: 1px solid #bcee0e6e;
+    border: 1px solid #ce4993;
 }
 
 /* Banner */
 .home-six-banner {
     background-image: url(../../public/img/slider/magazine_banner_bg.jpg);
     background-position: center;
-    background-size: cover;
     padding: 105px 0 35px;
     margin-top: -20px;
 }
@@ -5616,7 +5620,7 @@ ul.minicart .cart-price .new {
 .home-six-banner .banner-content .title-two span,
 .banner-news-heading .headline h5 > span,
 .banner-news-heading .headline h5::before {
-	color: #bcee0e;
+	color: #ce4993;
 }
 .home-six-banner .banner-content .title-two {
 	margin-bottom: 0;
@@ -5624,7 +5628,9 @@ ul.minicart .cart-price .new {
 .banner-news-heading {
     display: flex;
     align-items: center;
-    background: #bcee0e;
+	border: solid 2px #ce4993;
+	border-radius: 12px;
+    background: #10061B;
     padding: 20px 23px;
 	margin-bottom: 8px;
 }
@@ -5636,7 +5642,8 @@ ul.minicart .cart-price .new {
 }
 .banner-news-heading .headline h5 {
     margin-bottom: 0;
-    background: #1f2029;
+	border: solid 2px #ce4993;
+    background: #10061B;
     text-transform: uppercase;
     border-radius: 4px;
     font-size: 18px;
@@ -5648,7 +5655,7 @@ ul.minicart .cart-price .new {
     margin-right: 20px;
 }
 .banner-news-heading .headline h5::before {
-    content: "|";
+	border-radius: 12px;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
@@ -5658,7 +5665,7 @@ ul.minicart .cart-price .new {
 .banner-news-heading .headline p {
     margin-bottom: 0;
     font-size: 16px;
-    color: #474851;
+    color: #F1F0F9;
     font-weight: 600;
 }
 .banner-news-heading .social-link {
@@ -5677,16 +5684,15 @@ ul.minicart .cart-price .new {
     height: 30px;
     line-height: 30px;
     color: #fff;
-    background: #385594;
+    background: #10061B;
     text-align: center;
     border-radius: 50%;
-    font-size: 11px;
 }
 .banner-news-heading .social-link ul li:nth-child(2) a {
-	background: #4eabee;
+	background: #10061B;
 }
 .banner-news-heading .social-link ul li:nth-child(3) a {
-	background: #cb2027;
+	background: #10061B;
 }
 .banner-magazine-active {
     margin: 0 -4px;
@@ -5715,7 +5721,7 @@ ul.minicart .cart-price .new {
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    background: #bcee0e;
+    background: #ce4993;
     color: #2a2c36;
     display: inline-block;
     padding: 3px 11px;
@@ -5736,7 +5742,7 @@ ul.minicart .cart-price .new {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
-    color: #bcee0e;
+    color: #ce4993;
     margin-bottom: 5px;
 }
 .banner-magazine-content .title {
@@ -5756,7 +5762,7 @@ ul.minicart .cart-price .new {
     bottom: 0;
     right: 4px;
     height: 3px;
-    background: #bcee0e;
+    background: #ce4993;
     z-index: 1;
 	transition: .3s linear;
 	opacity: 0;
@@ -5773,7 +5779,7 @@ ul.minicart .cart-price .new {
 	color: #e84023;
 }
 .banner-magazine-item.blue .banner-magazine-content .date {
-	color: #007bff;
+	color: #ce4993;
 }
 .banner-magazine-item.red::before {
 	background: #e84023;
@@ -6374,22 +6380,20 @@ ul.minicart .cart-price .new {
 
 /* Trend-news */
 .trending-news-area {
-    background: #24252f;
+	background-image: url("../../public/img/bg/area_bg01.jpg");
     padding: 80px 0 80px;
 }
 .trending-news-area .hf-section-title .title::before,
 .world-news-area .hf-section-title .title::before,
 .live-streaming-two .hf-section-title .title::before,
 .latest-game-news-area .hf-section-title .title::before {
-    background: #bcee0e;
+    background: #ce499e;
 }
 .trend-news-thumb,
 .trending-news-item {
 	position: relative;
 }
-.trending-news-item {
-	margin-bottom: 30px;
-}
+
 .trending-news-item.overlay-item .trend-news-thumb::before {
     content: "";
     position: absolute;
@@ -6420,7 +6424,7 @@ ul.minicart .cart-price .new {
 	font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    background: #e84023;
+    background: #ce499e;
     color: #fff;
     display: inline-block;
     padding: 3px 11px;
@@ -6441,13 +6445,13 @@ ul.minicart .cart-price .new {
 .trend-news-content .title {
 	margin-bottom: 0;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'oxanium', sans-serif;
     font-weight: 700;
     line-height: 1.3;
 }
 .trend-news-content .title a:hover,
 .sidebar-popular-item .sp-content .title a:hover {
-	color: #bcee0e;
+	color: #ce4993;
 }
 .trending-news-item.overlay-item {
 	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.29);
@@ -6466,7 +6470,7 @@ ul.minicart .cart-price .new {
 	background: #ea8f00;
 }
 .trending-news-item.blue .trend-news-content .tags > a {
-	background: #007bff;
+	background: #ce499e;
 }
 .trending-news-head,
 .business-news-head {
@@ -6503,9 +6507,7 @@ ul.minicart .cart-price .new {
 .community-news-nav button:hover {
 	background: #c8ff0b;
 }
-.home-sidebar-news .hf-section-title .title {
-	font-size: 22px;
-}
+
 .sidebar-popular-item .sp-thumb {
 	margin-bottom: 15px;
 }
@@ -6538,11 +6540,12 @@ ul.minicart .cart-price .new {
 }
 .magazine-banner-ad {
     margin-top: 40px;
+	margin-left: 0rem;
 }
 
 /* World-news */
 .world-news-area {
-    background: #171821;
+	background-image: url(../../public/img/bg/area_bg02.jpg);
     padding: 80px 0 50px;
 }
 .world-news-item {
@@ -6589,10 +6592,10 @@ ul.minicart .cart-price .new {
 
 /* live-streaming */
 .live-streaming-two {
-	background-image: url(../../public/img/bg/streaming_bg02.jpg);
+	background-image: url(../../public/img/bg/area_bg01.jpg);
 }
 .live-streaming-two::before {
-	background: #bcee0e;
+	background: #ce4993;
 }
 
 /* Game News */

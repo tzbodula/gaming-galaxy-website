@@ -55,7 +55,7 @@ function AboutArea() {
                 <div className="my-info-box-content">
                   <div className="mt-award">
 
-                  <div className='pl-12 md:pl-0 lg:pl-9 xl:pl-16 2xl:pl-9'>
+                  <div className='pl-12 md:pl-0 lg:pl-9 xl:pl-16 2xl:pl-6'>
                     <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       width="100px" height="100px" viewBox="0 0 100 100" enableBackground="new 0 0 100 100" xmlSpace="preserve">
                       <path fill="none" stroke="#C34993" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" d="
@@ -79,7 +79,7 @@ function AboutArea() {
                 </div>
                 <div className="my-info-box-content">
                   <div className="mt-award">
-                    <div className='pl-12 md:pl-0 lg:pl-9 xl:pl-16 2xl:pl-9 '>
+                    <div className='pl-12 md:pl-0 lg:pl-9 xl:pl-16 2xl:pl-6 '>
                     <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                       width="100px" height="100px" viewBox="0 0 100 100" enableBackground="new 0 0 100 100" xmlSpace="preserve">
                       <path fill="none" stroke="#C34993" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" d="

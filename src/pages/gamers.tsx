@@ -14,7 +14,7 @@ function Gamers() {
   return (
     <div className="max-w-screen-2xl mx-auto ">
       <Fade left>
-      <div className="z-0 -mt-12 2xl:-mt-18">
+      <div className="z-0 -mt-12 2xl:-mt-18 text-center">
       <Image src={GamersBox} alt="Gaming Galaxy Gamers Box"></Image>
       </div>
       </Fade>
@@ -28,9 +28,9 @@ function Gamers() {
                   <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
                 </clipPath>
               </defs>
-              <image width="566" height="936" className="gradient border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/nrrczyC4/Gaming-News-Box.png"></image>
-              <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="29" y="205" fill="#F1F0F9">GAMING</text>
-              <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="36" y="220" fill="#F1F0F9">NEWS</text>
+              <image width="566" height="936" className="gradient border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/pdHfbsYk/Gaming-News-Box.png"></image>
+              <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="48" y="205" fill="#F1F0F9">???</text>
+              <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="31" y="220" fill="#F1F0F9">LOCKED</text>
             </svg>
           </div>
         </div>

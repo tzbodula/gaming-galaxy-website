@@ -164,6 +164,7 @@
   color: #fff;
 }
 .snipcart-modal {
+  padding-top: 3rem;
   position: relative;
   margin: 0 auto;
   max-width: 100%;
@@ -1389,6 +1390,8 @@
   margin-top: 24px;
 }
 .snipcart-payment-card-form__container {
+  background: #f1f0f9;
+  padding: 0.5rem;
   position: relative;
 }
 .snipcart-payment-card-authentication__container iframe {

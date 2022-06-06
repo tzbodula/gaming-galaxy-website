@@ -1,81 +1,116 @@
 import Link from "next/link";
 
-import {
-  FaLock
+import Image from "next/image";
 
-} from "react-icons/fa";
+import PackagesBox from "../../public/img/bg/PackagesBox.png"
 
-import { IconContext } from "react-icons";
+import testthumbnail from "../../public/img/bg/testthumbnail.png"
 
 import Fade from 'react-reveal/Fade';
 
 function Packages() {
   return (
+    <div className="max-w-screen-2xl mx-auto ">
+    <Fade left>
+    <div className="z-0 lg:-mt-12 2xl:-mt-18 text-center">
+    <Image src={PackagesBox} alt="Gaming Galaxy Packages Box"></Image>
+    </div>
+    <div className="text-center mb-8 lg:-mt-20 lg:mb-24">
+      <h2 className="font-oxanium-medium lg:text-5xl text-xl">PACKAGES EXPIRE IN: <span>0h 0m 0s</span></h2>
+      <h2 className="font-oxanium-light lg:text-3xl text-lg">CLICK ON EACH PACKAGE TO VIEW IT!</h2>
+    </div>
+    </Fade>
+    <Fade up cascade>
 
-    <div className="mx-auto pb-5 pt-12 text-center h-screen">
-      <div className="grid gap-4 xs:grid-cols-2 xs:grid-rows-2 lg:grid-cols-2 lg:grid-rows-2 p-8">
-        <Fade top>
-          <div className=" max-h-36 bg-nightsky/50 p-3 max-w-5xl border-2 border-sunset-pink shadow-lg shadow-sunset-pink drop-shadow-xl">
-            <div className="grid gap-4 xs:grid-cols-1 xs:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 p-8">
-              <div className="lg:text-left text-center">
-                <h1 className="font-oxanium-bold">FEATURED PACKAGES</h1>
-              </div>
-              <div className="lg:text-right text-center ">
-                <h1 className="font-oxanium-light text-sunset-red">IN DEVELOPMENT</h1>
-              </div>
-            </div>
-          </div>
-        </Fade>
-        <Fade top>
-          <div className="max-h-36 bg-nightsky/50 p-3 max-w-5xl border-2 border-sunset-pink shadow-lg shadow-sunset-pink drop-shadow-xl">
-            <div className="grid gap-4 xs:grid-cols-1 xs:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 p-8">
-              <div className="lg:text-left text-center">
-                <h1 className="font-oxanium-bold">DAILY PACKAGES</h1>
-              </div>
-              <div className="lg:text-right text-center ">
-                <h1 className="font-oxanium-light text-sunset-red">IN DEVELOPMENT</h1>
-              </div>
-            </div>
-          </div>
-        </Fade>
-        <div className="p-3 max-w-5xl">
-          <Fade left>
-          <div className="grid gap-4 xs:grid-cols-1 xs:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 p-8">
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3">
-              <h1 className="font-oxanium-medium">Featured Package 1</h1>
-            </div>
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3">
-              <h1 className="font-oxanium-medium">Featured Package 2</h1>
-            </div>
-          </div>
-          </Fade>
+    <div className="grid grid-rows-3 grid-cols-2 md:grid-rows-1 md:grid-cols-6 -mt-12 2xl:-mt-28">
+    <div className="text-cloudy-day text-center h-fit m-5 ">
+        <div className="pt-4 pb-4">
+          <svg className="container-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
+          <defs>
+              <clipPath id="clip1">
+                <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
+              </clipPath>
+            </defs>
+            <image width="566" height="936" className="gradient-package border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/Qds3Vn5v/Example-Package-Bronze.png"></image>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="30" y="205" fill="#F1F0F9">BRONZE</text>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="25" y="220" fill="#F1F0F9">PACKAGE</text>
+          </svg>
         </div>
-        <div className="p-3 max-w-5xl ">
-          <Fade right>
-          <div className="grid gap-4 xs:grid-cols-1 xs:grid-rows-6 lg:grid-cols-3 lg:grid-rows-2 p-8">
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3 ">
-              <h1 className="font-oxanium-medium">Featured Package 1</h1>
-            </div>
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3 ">
-              <h1 className="font-oxanium-medium">Featured Package 2</h1>
-            </div>
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3">
-              <h1 className="font-oxanium-medium">Featured Package 3</h1>
-            </div>
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3 ">
-              <h1 className="font-oxanium-medium">Featured Package 4</h1>
-            </div>
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3">
-              <h1 className="font-oxanium-medium">Featured Package 5</h1>
-            </div>
-            <div className="text-center bg-nightsky border-2 border-sunset-pink p-3 ">
-              <h1 className="font-oxanium-medium">Featured Package 6</h1>
-            </div>
-          </div>
-          </Fade>
+      </div>
+      <div className="text-cloudy-day text-center h-fit m-5 ">
+        <div className="pt-4 pb-4">
+          <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
+          <defs>
+              <clipPath id="clip1">
+                <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
+              </clipPath>
+            </defs>
+            <image width="566" height="936" className="gradient-package border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/Qds3Vn5v/Example-Package-Bronze.png"></image>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="30" y="205" fill="#F1F0F9">BRONZE</text>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="25" y="220" fill="#F1F0F9">PACKAGE</text>
+          </svg>
+        </div>
+      </div>
+      <div className="text-cloudy-day text-center h-fit m-5 ">
+        <div className="pt-4 pb-4">
+          <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
+          <defs>
+              <clipPath id="clip1">
+                <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
+              </clipPath>
+            </defs>
+            <image width="566" height="936" className="gradient-package border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/5t2WSYs3/Example-Package-Silver.png"></image>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="34" y="205" fill="#F1F0F9">SILVER</text>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="25" y="220" fill="#F1F0F9">PACKAGE</text>
+          </svg>
+        </div>
+      </div>
+      <div className="text-cloudy-day text-center h-fit m-5 ">
+        <div className="pt-4 pb-4">
+          <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
+          <defs>
+              <clipPath id="clip1">
+                <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
+              </clipPath>
+            </defs>
+            <image width="566" height="936" className="gradient-package border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/5t2WSYs3/Example-Package-Silver.png"></image>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="34" y="205" fill="#F1F0F9">SILVER</text>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="25" y="220" fill="#F1F0F9">PACKAGE</text>
+          </svg>
+        </div>
+      </div>
+      <div className="text-cloudy-day text-center h-fit m-5 ">
+        <div className="pt-4 pb-4">
+          <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
+          <defs>
+              <clipPath id="clip1">
+                <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
+              </clipPath>
+            </defs>
+            <image width="566" height="936" className="gradient-package border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/W3DRQRLq/Example-Package-Gold.png"></image>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="40" y="202" fill="#F1F0F9">GOLD</text>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="25" y="217" fill="#F1F0F9">PACKAGE</text>
+          </svg>
+        </div>
+      </div>
+      <div className="text-cloudy-day text-center h-fit m-5 ">
+        <div className="pt-4 pb-4">
+          <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
+          <defs>
+              <clipPath id="clip1">
+                <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
+              </clipPath>
+            </defs>
+            <image width="566" height="936" className="gradient-package border-2 border-cloudy-day" clipPath="url(#clip1)" xlinkHref="https://i.postimg.cc/fT744jFC/Example-Package-Galactic.png"></image>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="25" y="202" fill="#F1F0F9">GALACTIC</text>
+            <text className="font-oxanium-bold text-cloudy-day" transform="scale(4, 4)" x="25" y="217" fill="#F1F0F9">PACKAGE</text>
+          </svg>
         </div>
       </div>
     </div>
+    </Fade>
+  </div>
+
   );
 }
 
