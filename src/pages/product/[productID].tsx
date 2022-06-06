@@ -184,44 +184,44 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
     let productName = printfulProductInfo.result.sync_product.name
 
-    let productType = ''
+    let productID = 0
 
     if (productName.includes('Poster')) {
-        productType='Poster'
+        productID=6
     } else if (productName.includes('T-Shirt')) {
-        productType='Shirt'
+        productID=2
     } else if (productName.includes('Hoodie')) {
-        productType='Hoodie'
+        productID=3
     } else if (productName.includes('Sweatshirt')) {
-        productType='Sweatshirt'
+        productID=4
     } else if (productName.includes('Case')) {
-        productType='Case'
+        productID=5
     } else if (productName.includes('Hat')) {
-        productType='Hat'
+        productID=1
     } else if (productName.includes('Notebook')) {
-        productType='Notebook'
+        productID=7
     } else if (productName.includes('Mouse Pad')) {
-        productType='Mouse Pad'
+        productID=8
     } else if (productName.includes('Crop Top')) {
-        productType='Crop Top'
+        productID=9
     } else if (productName.includes('Tank Top')) {
-        productType='Tank Top'
+        productID=10
     } else if (productName.includes('Long Sleeve')) {
-        productType='Long Sleeve'
+        productID=11
     } else if (productName.includes('Polo Shirt')) {
-        productType='Polo Shirt'
+        productID=12
     } else if (productName.includes('Mouse Pad')) {
-        productType='Mouse Pad'
+        productID=8
     } 
     else {
-        productType='ERROR'
+        productID=0
     }
 
     const prisma = new PrismaClient()
 
     const productData = await prisma.merch.findUnique({
         where: {
-            id: productType
+            id: productID
         }
     })
 
