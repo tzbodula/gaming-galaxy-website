@@ -184,38 +184,44 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
     let productName = printfulProductInfo.result.sync_product.name
 
-    let productID = 0
+    let productID = null
+
+    console.log("Before Product ID is ", productID)
+    console.log("Product Name is ", productName)
+
 
     if (productName.includes('Poster')) {
-        productID=6
+        productID = 6
     } else if (productName.includes('T-Shirt')) {
-        productID=2
+        productID = 2
     } else if (productName.includes('Hoodie')) {
-        productID=3
+        productID = 3
     } else if (productName.includes('Sweatshirt')) {
-        productID=4
+        productID = 4
     } else if (productName.includes('Case')) {
-        productID=5
+        productID = 5
     } else if (productName.includes('Hat')) {
-        productID=1
+        productID = 1
     } else if (productName.includes('Notebook')) {
-        productID=7
+        productID = 7
     } else if (productName.includes('Mouse Pad')) {
-        productID=8
+        productID = 8
     } else if (productName.includes('Crop Top')) {
-        productID=9
+        productID = 9
     } else if (productName.includes('Tank Top')) {
-        productID=10
+        productID = 10
     } else if (productName.includes('Long Sleeve')) {
-        productID=11
+        productID = 11
     } else if (productName.includes('Polo Shirt')) {
-        productID=12
-    } else if (productName.includes('Mouse Pad')) {
-        productID=8
+        productID = 12
+    } else if (productName.includes('Laptop Sleeve')) {
+        productID = 13
     } 
     else {
         productID=0
     }
+
+    console.log("After Product ID is ", productID)
 
     const prisma = new PrismaClient()
 
@@ -224,6 +230,8 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
             id: productID
         }
     })
+
+    console.log("Product Data is ", productData)
 
     prisma.$disconnect()
 
