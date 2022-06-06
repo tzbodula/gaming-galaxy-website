@@ -32,7 +32,7 @@ function FeaturesArea() {
                     </Link>
                   </div>
                   <h4>We are a people first, profits second oriented company</h4>
-                  <p>If there is not enough true value provided in every product then we wont even bother putting it on the website as we strive to truly make a positive impact</p>
+                  <p>If there is not enough true value provided in every product then we wont even bother putting it on the website as we strive to truly make a positive impact on creators both big and small</p>
                 </div>
                 <div className="features-list-wrap">
                   <ul>
