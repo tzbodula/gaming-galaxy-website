@@ -18,7 +18,6 @@ const Callback = () => {
   const finishSocialLogin = async () => {
     let result = await magic.oauth.getRedirectResult();
     authenticateWithServer(result.magic.idToken);
-    verifyUserInformation(result.magic.userMetadata);
   };
 
   // `loginWithCredential()` returns a didToken for the user logging in
@@ -47,10 +46,6 @@ const Callback = () => {
       Router.push('/profile');
     }
   };
-
-  const verifyUserInformation = (metadata) => {
-    console.log("User information is", metadata);
-  }
 
   return <Loading />;
 };

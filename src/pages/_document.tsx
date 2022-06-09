@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-        <link rel="shortcut icon" href="../../static/favicon.png" />
+          <link rel="shortcut icon" href="../../static/favicon.png" />
           <link rel="preconnect" href="https://app.snipcart.com" />
           <link rel="preconnect" href="https://cdn.snipcart.com" />
           <link
@@ -21,6 +21,7 @@ class MyDocument extends Document {
             async
             src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"
           ></script>
+
           <script async src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 
           <div

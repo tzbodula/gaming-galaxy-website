@@ -183,10 +183,6 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
     let productID = null
 
-    console.log("Before Product ID is ", productID)
-    console.log("Product Name is ", productName)
-
-
     if (productName.includes('Poster')) {
         productID = 6
     } else if (productName.includes('T-Shirt')) {
@@ -218,8 +214,6 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
         productID = 0
     }
 
-    console.log("After Product ID is ", productID)
-
     const prisma = new PrismaClient()
 
     const productData = await prisma.merch.findUnique({
@@ -227,8 +221,6 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
             id: productID
         }
     })
-
-    console.log("Product Data is ", productData)
 
     prisma.$disconnect()
 
