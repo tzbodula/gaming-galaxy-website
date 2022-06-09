@@ -2832,8 +2832,9 @@
   background-image: linear-gradient(90deg, #ce4993, #ee5d6c);
 }
 .snipcart-cart-button--secondary {
-  color: #989ba3;
-  background-color: #e7ebed;
+  color: #ce4993;
+  border: solid 2px #ce4993;
+  background-color: transparent;
 }
 .snipcart-cart-button--secondary .snipcart__icon path {
   fill: #989ba3;
