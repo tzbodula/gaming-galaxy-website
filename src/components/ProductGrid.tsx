@@ -1,7 +1,4 @@
-import { arrayBuffer } from "node:stream/consumers";
 import Product from "./Product";
-
-
 
 const ProductGrid = ({ products, filter }) => {
   if (!products || products.length === 0) return null;

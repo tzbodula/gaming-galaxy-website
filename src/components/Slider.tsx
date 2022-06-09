@@ -18,10 +18,10 @@ function SliderThree() {
                    <Image src={ThirdBanner} alt="" />
                    </Fade>
                   </div>
-                  <div className="third-banner-content text-center wow bounceInUp lg:pb-24 2xl:pb-96" data-wow-delay=".2s">
+                  <div className="relative z-10 text-center wow bounceInUp lg:pb-24 2xl:pb-96" data-wow-delay=".2s">
                     <Fade bottom>
                     <h1 className='text-5xl pt-8 pb-5 md:pb-0 md:pt-0 md:text-8xl lg:text-9xl font-oxanium-bold'>GAMING GALAXY</h1>
-                    <h6 className='text-xs md:text-xl'>THE ULTIMATE PLACE FOR GAMERS AND GAMING CREATORS</h6>
+                    <h6 className='text-xs md:text-xl font-oxanium-light mb-8 tracking-extralarge'>THE ULTIMATE PLACE FOR GAMERS AND GAMING CREATORS</h6>
                     <Link href="/#" passHref>
                       <a className="btn rotated-btn">LEARN MORE</a>
                     </Link>

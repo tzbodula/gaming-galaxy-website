@@ -1,7 +1,7 @@
 const description =
-  "Launch your own fully automated store with Snipcart, Printful, and Next.js";
+  "The offical website for Gaming Galaxy, the ultimate superstore for gaming content creators and gamers alike";
 const title = "Gaming Galaxy";
-const url = "https://swag.nextdropshippingstarter.com";
+const url = "https://gaminggalaxy.gg";
 
 const seo = {
   title,

@@ -41,6 +41,10 @@ module.exports = {
         'cloudy-day': '#F1F0F9',
       },
 
+      letterSpacing: {
+        extralarge: '.5em',
+      },
+
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
         'oxanium-extra-light': ['oxanium-extra-light', 'sans-serif'],
