@@ -95,7 +95,7 @@ function Packages() {
       </div>
       <div className="text-cloudy-day text-center h-fit m-5 ">
         <div className="pt-4 pb-4">
-          <svg id="a" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
+          <svg id="a" className="animate-pulse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.57 930">
           <defs>
               <clipPath id="clip1">
                 <polygon stroke="red" points="2.91 927.5 440.41 927.5 559.73 2.5 144.96 2.5 2.91 927.5" />
