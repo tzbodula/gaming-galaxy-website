@@ -10,7 +10,7 @@ function AboutArea() {
         <div className='px-2 lg:px-2 lg:mx-0 text-center align-center items-center place-content-center grid gap-4 grid-rows-2 grid-cols-1 2xl:grid-rows-1 2xl:grid-cols-2 2xl:pr-12 max-w-fit'>
           <div className="row">
             <div className="col-12">
-              <div className="third-section-title mx-auto 2xl:mx-auto lg:pl-0 text-center md:pt-20 pt-0 pb-20 mb-75">
+              <div className="third-section-title font-oxanium-bold mx-auto 2xl:mx-auto lg:pl-0 text-center md:pt-20 pt-0 pb-20 mb-75">
                 <h2 >MAXIMIZE <span>YOUR</span> BRAND&apos;S <span>POTENTIAL</span></h2>
               </div>
             </div>
