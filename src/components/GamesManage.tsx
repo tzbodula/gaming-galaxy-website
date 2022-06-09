@@ -19,9 +19,9 @@ export default function GamesManage() {
       <div className="">
         <div className="row justify-content-center">
           <div className="col-xl-7 col-lg-8">
-            <div className="pt-10 section-title title-style-two text-center mb-5">
-              <span>NO MATTER HOW MANY FOLLOWERS</span>
-              <h2>WE HAVE<span> SOMETHING </span>FOR YOU</h2>
+            <div className="pt-10 title-style-two text-center mb-5">
+              <span className='font-oxanium-extrabold'>NO MATTER HOW MANY FOLLOWERS</span>
+              <h2 className='font-oxanium-semibold '>WE HAVE<span> SOMETHING </span>FOR YOU</h2>
             </div>
           </div>
         </div>
@@ -63,11 +63,11 @@ export default function GamesManage() {
                   </ul>
                 </div>
               </div>
-              <div className="coming-match-info">
+              <div className="border-t-4 border-sunset-pink text-center p-9 bg-nightsky/50 uppercase ">
                 <h5>If That&apos;s You...</h5>
 
                 <div className="match-info-action">
-                  <a className="btn">
+                  <a className="font-oxanium-bold bg-nightsky/50 p-5 text-cloudy-day text-sm rounded-lg border-2 border-sunset-pink shadow-lg shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
                     <Link href="/">
                       CHECK THIS OUT!
                     </Link>
@@ -111,11 +111,11 @@ export default function GamesManage() {
                   </ul>
                 </div>
               </div>
-              <div className="coming-match-info">
+              <div className="border-t-4 border-sunset-pink text-center p-9 bg-nightsky/50 uppercase ">
                 <h5>If That&apos;s You...</h5>
 
                 <div className="match-info-action">
-                  <a className="btn">
+                  <a className="font-oxanium-bold bg-nightsky/50 p-5 text-cloudy-day text-sm rounded-lg border-2 border-sunset-pink shadow-lg shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
                     <Link href="/">
                       CHECK THIS OUT!
                     </Link>
@@ -163,11 +163,11 @@ export default function GamesManage() {
 
 
               </div>
-              <div className="coming-match-info">
+              <div className="border-t-4 border-sunset-pink text-center p-9 bg-nightsky/50 uppercase ">
                 <h5>If That&apos;s You...</h5>
 
                 <div className="match-info-action">
-                  <a className="btn">
+                  <a className="font-oxanium-bold bg-nightsky/50 p-5 text-cloudy-day text-sm rounded-lg border-2 border-sunset-pink shadow-lg shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
                     <Link href="/#">
                       CHECK THIS OUT!
                     </Link>
@@ -184,8 +184,8 @@ export default function GamesManage() {
           <div className="row">
             <div className="col-12">
               <div className="tournament-top-wrap border-2 border-sunset-pink">
-                <div className="section-title mx-auto tournament-title ">
-                  <h2 className='text-xs md:text-5xl xl:text-8xl 2xl:text-7xl'>LEARN <span>AND </span> GROW</h2>
+                <div className="mx-auto ">
+                  <h2 className='font-oxanium-semibold text-xs md:text-5xl xl:text-8xl 2xl:text-7xl'>LEARN <span>AND </span> GROW</h2>
                 </div>
                 <div className="tournament-menu pr-12 lg:pt-4 mx-auto text-center place-content-center grid grid-rows-2 grid-cols-2 lg:grid-rows-1 xl:mx-auto lg:grid-cols-4 ">
                   <div className='font-oxanium-medium -mr-10'>
@@ -243,12 +243,12 @@ export default function GamesManage() {
                             </div>
                             <div className="col-lg-8">
                               <div className="tournament-schedule-content text-center">
-                                <h3>
+                                <h3 className='font-oxanium-semibold'>
                                   <Link href="/">
                                     {title}
                                   </Link>
                                 </h3>
-                                <p>{description}</p>
+                                <p className='font-oxanium-medium'>{description}</p>
 
                               </div>
                             </div>

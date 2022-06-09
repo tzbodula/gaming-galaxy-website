@@ -1606,9 +1606,6 @@ ul.minicart .cart-price .new {
 .lg-tag a,
 .product-content .product-tag a,
 .features-item .product-tag a {
-	font-size: 12px;
-	font-weight: 800;
-	text-transform: uppercase;
 	color: #1c1121;
 	height: 30px;
 	line-height: 30px;
@@ -1874,7 +1871,7 @@ ul.minicart .cart-price .new {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'oxanium', sans-serif;
 	transition: .3s linear;
 }
 .my-info-box-content {
@@ -2950,7 +2947,8 @@ ul.minicart .cart-price .new {
 	display: inline-block;
 }
 .features-list-content .product-tag a::before {
-	background: #3a3042;
+	background: transparent;
+	border: solid 2px #ce4993
 }
 .features-item .features-list-content .product-tag a:hover {
 	color: #1d1227;
