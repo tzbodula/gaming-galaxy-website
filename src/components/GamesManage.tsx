@@ -64,7 +64,7 @@ export default function GamesManage() {
                 </div>
               </div>
               <div className="border-t-4 border-sunset-pink text-center p-9 bg-nightsky/50 uppercase ">
-                <h5>If That&apos;s You...</h5>
+                <h5 className='font-oxanium-semibold'>If That&apos;s You...</h5>
 
                 <div className="match-info-action">
                   <a className="font-oxanium-bold bg-nightsky/50 p-5 text-cloudy-day text-sm rounded-lg border-2 border-sunset-pink shadow-lg shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
@@ -112,7 +112,7 @@ export default function GamesManage() {
                 </div>
               </div>
               <div className="border-t-4 border-sunset-pink text-center p-9 bg-nightsky/50 uppercase ">
-                <h5>If That&apos;s You...</h5>
+                <h5 className='font-oxanium-semibold'>If That&apos;s You...</h5>
 
                 <div className="match-info-action">
                   <a className="font-oxanium-bold bg-nightsky/50 p-5 text-cloudy-day text-sm rounded-lg border-2 border-sunset-pink shadow-lg shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
@@ -164,7 +164,7 @@ export default function GamesManage() {
 
               </div>
               <div className="border-t-4 border-sunset-pink text-center p-9 bg-nightsky/50 uppercase ">
-                <h5>If That&apos;s You...</h5>
+                <h5 className='font-oxanium-semibold'>If That&apos;s You...</h5>
 
                 <div className="match-info-action">
                   <a className="font-oxanium-bold bg-nightsky/50 p-5 text-cloudy-day text-sm rounded-lg border-2 border-sunset-pink shadow-lg shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
