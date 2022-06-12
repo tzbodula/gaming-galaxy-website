@@ -21,7 +21,7 @@ function Merch() {
       </Fade>
       <Fade up cascade>
         <div className="text-center mb-8 lg:-mt-20 lg:mb-24">
-          <h2 className="font-oxanium-medium lg:text-5xl text-xl"><span>FREE</span> SHIPPING ON <span>ALL MERCHANDISE</span></h2>
+          <h2 className="font-oxanium-medium lg:text-5xl text-xl"><span>FREE</span> SHIPPING & TAX <span>INCLUDED</span> ON <span>ALL MERCHANDISE</span></h2>
           <h2 className="font-oxanium-light lg:text-3xl text-lg">CLICK ON EACH LINK TO VIEW OUR SELECTION!</h2>
         </div>
         <div className="grid grid-rows-6 grid-cols-1 lg:grid-rows-1 lg:grid-cols-6 text-center px-5 pb-6">

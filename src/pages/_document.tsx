@@ -1,6 +1,9 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
+
+
+
   render() {
     return (
       <Html lang="en">
@@ -15,13 +18,12 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.1/dist/flowbite.min.css" />
         </Head>
         <body className="antialiased">
+
           <Main />
           <NextScript />
-          <script
-            async
-            src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"
-          ></script>
 
+
+          <script async src="https://cdn.snipcart.com/themes/v3.0.31/default/snipcart.js"></script>
           <script async src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 
           <div

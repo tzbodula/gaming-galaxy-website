@@ -31,7 +31,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ products }) => (
     </Fade>
     <Fade up>
     <div className="text-center mb-8 lg:-mt-20 lg:mb-24">
-      <h2 className="font-oxanium-medium lg:text-5xl text-xl"><span>FREE</span> SHIPPING ON <span>ALL MERCHANDISE</span></h2>
+      <h2 className="font-oxanium-medium lg:text-5xl text-xl"><span>FREE</span> SHIPPING & TAX <span>INCLUDED</span> ON <span>ALL MERCHANDISE</span></h2>
     </div>
     <div className="pr-80">
       <nav aria-label="Breadcrumb place-items-center">
