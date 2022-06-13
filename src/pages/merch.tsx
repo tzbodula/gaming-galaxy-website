@@ -29,37 +29,39 @@ function Merch() {
             <div className="mb-2">
               <Image src={ShirtIcon} alt="Shirt Icon"></Image>
             </div>
-            <Link href="/shirts"><a >Shirts</a></Link>
+            <div className="">
+              <Link href="/shirts" passHref><button className="bg-nightsky/10 px-7 py-3 border-sunset-pink border-2 hover:border-cloudy-day transistion-all">Shirts</button></Link>
+            </div>
           </div>
           <div className="bg-nightsky/25 mx-auto w-4/5 font-oxanium-bold p-5 mb-2 border-2 border-sunset-pink shadow-md shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
             <div className="mb-2">
               <Image src={HoodieIcon} alt="Shirt Icon"></Image>
             </div>
-            <Link href="/hoodies"><a>Hoodies</a></Link>
+            <Link href="/hoodies" passHref><button className="bg-nightsky/10 px-7 py-3 border-sunset-pink border-2 hover:border-cloudy-day transistion-all">Hoodies</button></Link>
           </div>
           <div className="bg-nightsky/25 mx-auto w-4/5 font-oxanium-bold p-5 mb-2 border-2 border-sunset-pink shadow-md shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
             <div className="mb-2">
               <Image src={SweatshirtIcon} alt="Shirt Icon"></Image>
             </div>
-            <Link href="/sweatshirts"><a>Sweatshirts</a></Link>
+            <Link href="/sweatshirts" passHref><button className="bg-nightsky/10 px-7 py-3 border-sunset-pink border-2 hover:border-cloudy-day transistion-all">Sweatshirts</button></Link>
           </div>
           <div className="bg-nightsky/25 mx-auto w-4/5 font-oxanium-bold p-5 mb-2 border-2 border-sunset-pink shadow-md shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
             <div className="mb-2">
               <Image src={HatIcon} alt="Shirt Icon"></Image>
             </div>
-            <Link href="/hats"><a>Hats</a></Link>
+            <Link href="/hats" passHref><button className="bg-nightsky/10 px-7 py-3 border-sunset-pink border-2 hover:border-cloudy-day transistion-all">Hats</button></Link>
           </div>
           <div className="bg-nightsky/25 mx-auto w-4/5 font-oxanium-bold p-5 mb-2 border-2 border-sunset-pink shadow-md shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
             <div className="mb-2">
               <Image src={AccessoriesIcon} alt="Shirt Icon"></Image>
             </div>
-            <Link href="/accessories"><a>Accessories</a></Link>
+            <Link href="/accessories" passHref><button className="bg-nightsky/10 px-7 py-3 border-sunset-pink border-2 hover:border-cloudy-day transistion-all">Accessories</button></Link>
           </div>
           <div className="bg-nightsky/25 mx-auto w-4/5 font-oxanium-bold p-5 mb-2 border-2 border-sunset-pink shadow-md shadow-sunset-pink hover:border-cloudy-day hover:shadow-cloudy-day transition-all">
             <div className="mb-2">
               <Image src={HomeIcon} alt="Shirt Icon"></Image>
             </div>
-            <Link href="/home"><a>Home</a></Link>
+            <Link href="/home" passHref><button className="bg-nightsky/10 px-7 py-3 border-sunset-pink border-2 hover:border-cloudy-day transistion-all">Home</button></Link>
           </div>
         </div>
       </Fade>
