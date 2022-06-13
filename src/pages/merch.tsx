@@ -14,12 +14,12 @@ import HomeIcon from "../../public/img/images/homeicon.png"
 function Merch() {
   return (
     <>
-      <Fade down>
+      <Fade top>
         <div className="pt-12 text-center">
           <Image src={MerchBox} alt="Merch Header"></Image>
         </div>
       </Fade>
-      <Fade up cascade>
+      <Fade bottom cascade>
         <div className="text-center mb-8 lg:-mt-20 lg:mb-24">
           <h2 className="font-oxanium-medium lg:text-5xl text-xl"><span>FREE</span> SHIPPING & TAX <span>INCLUDED</span> ON <span>ALL MERCHANDISE</span></h2>
           <h2 className="font-oxanium-light lg:text-3xl text-lg">CLICK ON EACH LINK TO VIEW OUR SELECTION!</h2>

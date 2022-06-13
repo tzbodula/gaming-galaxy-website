@@ -11,7 +11,7 @@ function About() {
   return (
     <div className="max-w-6xl mx-auto px-6">
       <Fade top>
-        <div className="text-center -mt-12">
+        <div className="text-center">
           <Image src={MeetTheTeam} alt="Meet The Team Banner" />
         </div>
       </Fade>
@@ -30,7 +30,7 @@ function About() {
       </Fade>
 
       <Fade bottom>
-        <div className="grid gap-4 grid-cols-4 grid-rows-1 text-center pb-5">
+        <div className="grid gap-4 md:grid-cols-4 md:grid-rows-1 grid-rows-4 grid-cols-1 md:pt-0 pt-6 text-center pb-5">
           <div className="h-content">
             <Link href="/missionstatement" passHref>
               <button className="btn" type="button" data-modal-toggle="defaultModal">Company Mission</button>

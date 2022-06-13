@@ -8,12 +8,12 @@ import Fade from 'react-reveal/Fade';
 function Creators() {
   return (
     <div className="max-w-screen-2xl mx-auto ">
-      <Fade right>
-      <div className="z-10 -mt-12 2xl:-mt-18 text-center">
+      <Fade top>
+      <div className="z-10 text-center">
         <Image src={CreatorsBox} alt="Gaming Galaxy Creators Box "></Image>
       </div>
       </Fade>
-      <Fade left>
+      <Fade bottom>
       <div className="grid grid-rows-2 grid-cols-2 md:grid-rows-1 md:grid-cols-4 -mt-12 2xl:-mt-28 pb-12 ">
         <div className="text-cloudy-day text-center h-fit m-5 ">
           <div className="pt-4 pb-4">

@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade';
 function Packages() {
   return (
     <div className="max-w-screen-2xl mx-auto ">
-    <Fade left>
+    <Fade top>
     <div className="z-0 lg:-mt-12 2xl:-mt-18 text-center">
     <Image src={PackagesBox} alt="Gaming Galaxy Packages Box"></Image>
     </div>
@@ -20,7 +20,7 @@ function Packages() {
       <h2 className="font-oxanium-light lg:text-3xl text-lg">CLICK ON EACH PACKAGE TO VIEW IT!</h2>
     </div>
     </Fade>
-    <Fade up cascade>
+    <Fade bottom cascade>
 
     <div className="grid grid-rows-3 grid-cols-2 md:grid-rows-1 md:grid-cols-6 -mt-12 2xl:-mt-28">
     <div className="text-cloudy-day text-center h-fit m-5 ">
