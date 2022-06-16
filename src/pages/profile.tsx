@@ -12,10 +12,6 @@ import ReactCountryFlag from 'react-country-flag';
 import GGWallpaper from '../../public/img/bg/GGWallpaper.jpg'
 import GGLogoCircle from '../../public/img/bg/GGLogoCircleSmall.png'
 
-var userData = {}
-
-
-
 const Profile = () => {
   const [user, setUser] = useContext(UserContext);
 
@@ -37,9 +33,6 @@ const Profile = () => {
 
   const isAccountInfo = accSelection === "Account Info"
   const isProfileDesign = accSelection === "Profile Design"
-
-  userData = getUserData(user)
-  console.log("User data is ", user)
 
   const logout = () => {
     magic.user.logout().then(() => {
@@ -235,25 +228,21 @@ const Profile = () => {
 };
 export const getServerSideProps: GetServerSideProps = async (context) => {
 
-  async function getUserData(user) {
+    console.log("One!")
+
     const prisma = new PrismaClient()
   
     const userData = await prisma.users.findUnique({
         where: {
-          id: user.issuer
+          id: user.issuer //Can't find the user object that's supposed to be from the state above. 
         }
     })
-  
-    prisma.$disconnect()
-  
-    return userData
-  }
 
-  userData = getUserData(context.params.user)
+    prisma.$disconnect()
 
   return {
     props: {
-
+      //Returns the userData that corresponds with the provided ID
     }
 }
 }
