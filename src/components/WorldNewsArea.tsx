@@ -72,34 +72,34 @@ const WorldNewsArea = () => {
   }
   return (
     <section className="world-news-area">
-      <div className="container ml-64">
-        <div className='grid grid-rows-1 grid-cols-2'>
+      <div className="container xs:mx-auto sm:ml-12 md:ml-12 2xl:ml-64">
+        <div className='grid xl:grid-rows-1 xl:grid-cols-2'>
           <div className="row mr-8">
               <div className="hf-section-title mb-8 ">
                <h4 className="title">GET YOUR CREATOR JOURNEY STARTED</h4>
               </div>
-              <div className='grid grid-rows-1 grid-cols-2 gap-4'>
+              <div className='grid xl:grid-rows-1 xl:grid-cols-2 gap-4'>
               <div className="">
                 <div className="world-news-item">
                   <div className="banner-magazine-thumb">
-                    <div className="tags"><Link href="/#" passHref>sports</Link></div>
+                    <div className="tags"></div>
                     <Image src={WorldNews1} alt="" />
                   </div>
                   <div className="banner-magazine-content">
-                    <span className="date">652,438 Views // Posted: April 19, 2021</span>
-                    <h5 className="title"><Link href="/#" passHref>The ultimate guide to becoming a gaming creator</Link></h5>
+                    <span className="date xs:text-xs lg:text-lg xl:text-xl">652,438 Views // Posted: April 19, 2021</span>
+                    <h5 className="xs:text-sm sm:text-xs lg:text-sm"><Link href="/#" passHref>The ultimate guide to becoming a gaming creator</Link></h5>
                   </div>
                 </div>
               </div>
               <div className="">
                 <div className="world-news-item ">
                   <div className="banner-magazine-thumb">
-                    <div className="tags"><Link href="/#" passHref>sports</Link></div>
+                    <div className="tags"></div>
                     <Image src={WorldNews2} alt="" />
                   </div>
                   <div className="banner-magazine-content">
-                    <span className="date">421,925 Views // Posted: April 20, 2021</span>
-                    <h5 className="title"><Link href="/#" passHref>The ultimate guide to growing your brand from 0 to a full-time income</Link></h5>
+                    <span className="date xs:text-xs sm:text-sm lg-text-lg">421,925 Views // Posted: April 20, 2021</span>
+                    <h5 className="xs:text-xs sm:text-xs "><Link href="/#" passHref>The ultimate guide to growing your brand from 0 to full-time </Link></h5>
                   </div>
                 </div>
               </div>
@@ -107,33 +107,33 @@ const WorldNewsArea = () => {
           </div>
           <div className="row">
               
-              <div className="hf-section-title mb-8">
+              <div className="mb-8">
                 <h4 className="title">FIND YOUR VOICE</h4>
               </div>
               <aside className="home-sidebar-news">
-                <Slider className="business-news-active " {...settings}>
+                <Slider className="business-news-active w-screen " {...settings}>
                   <div className="business-news-item">
                     <div className="business-news-post">
                       <Link href="/#" passHref><Image src={BusinessBlog1} alt="" /></Link>
                     </div>
-                    <div className="-mt-10 trending-news-item mb-8 horizontal-item blue">
+                    <div className="xl:-mt-10 trending-news-item xl:mb-8 horizontal-item blue">
                       <div className="trend-news-thumb">
                         <Link href="/#" passHref><Image src={TwitchThumb} alt="" /></Link>
                       </div>
                       <div className="trend-news-content">
                         <div className="tags"><Link href="/#" passHref>Twitch</Link></div>
                         <span className="date">December 19, 2022</span>
-                        <h4 className="title"><Link href="/#" passHref>Matching your brand with your livestreams</Link></h4>
+                        <h4 className="xs:text-lg sm:text-xl"><Link href="/#" passHref>Matching your brand with your livestreams</Link></h4>
                       </div>
                     </div>
-                    <div className="trending-news-item mb-8 horizontal-item blue">
+                    <div className="trending-news-item xl:mb-8 horizontal-item blue">
                       <div className="trend-news-thumb">
                         <Link href="/#" passHref><Image src={YoutubeThumb} alt="" /></Link>
                       </div>
                       <div className="trend-news-content">
                         <div className="tags"><Link href="/#" passHref>Youtube</Link></div>
                         <span className="date">December 19, 2022</span>
-                        <h4 className="title"><Link href="/#" passHref>Matching your brand with your youtube content </Link></h4>
+                        <h4 className="xs:text-lg sm:text-xl"><Link href="/#" passHref>Matching your brand with your youtube content </Link></h4>
                       </div>
                     </div>
 
@@ -142,24 +142,24 @@ const WorldNewsArea = () => {
                     <div className="business-news-post">
                       <Link href="/#" passHref><Image src={BusinessBlog2} alt="" /></Link>
                     </div>
-                    <div className="-mt-10 trending-news-item mb-8 horizontal-item blue">
+                    <div className="xl:-mt-10 trending-news-item xl:mb-8 horizontal-item blue">
                       <div className="trend-news-thumb">
                         <Link href="/#" passHref><Image src={TrendPost5} alt="" /></Link>
                       </div>
                       <div className="trend-news-content">
                         <div className="tags"><Link href="/#" passHref>GROWTH</Link></div>
                         <span className="date">December 19, 2022</span>
-                        <h4 className="title"><Link href="/#" passHref>Finding your &quot;reason&quot; for becoming a creator</Link></h4>
+                        <h4 className="xs:text-lg"><Link href="/#" passHref>Finding your &quot;reason&quot; for becoming a creator</Link></h4>
                       </div>
                     </div>
-                    <div className="trending-news-item mb-8 horizontal-item blue">
+                    <div className="trending-news-item xl:mb-8 horizontal-item blue">
                       <div className="trend-news-thumb">
                         <Link href="/#" passHref><Image src={TrendPost3} alt="" /></Link>
                       </div>
                       <div className="trend-news-content">
                         <div className="tags"><Link href="/#" passHref>GROWTH</Link></div>
                         <span className="date">December 19, 2022</span>
-                        <h4 className="title"><Link href="/#" passHref>How to: Transfer your creation passion into your content</Link></h4>
+                        <h4 className="xs:text-lg"><Link href="/#" passHref>How to: Transfer your creation passion into your content</Link></h4>
                       </div>
                     </div>
                   </div>

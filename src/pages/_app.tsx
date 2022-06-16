@@ -44,6 +44,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
       <WishlistProvider>
         <UserContext.Provider value={[user, setUser]}>
+          {console.log("Current User Context is", user)}
           <Layout>
             <DefaultSeo {...defaultSEO} />
             <Component {...pageProps} />

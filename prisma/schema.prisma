@@ -18,3 +18,16 @@ model merch {
   highlight3  String? @db.VarChar(1000)
   highlight4  String? @db.VarChar(1000)
 }
+
+model users {
+  id              String    @id @db.VarChar(64)
+  username        String?   @db.VarChar(32)
+  email           String?   @db.VarChar(100)
+  brandname       String?   @db.VarChar(32)
+  accountcreation DateTime? @db.Date
+  nationality     String?   @db.Char(2)
+  isAffilate      Boolean?
+  isEditor        Boolean?
+  isAdmin         Boolean?
+  isDesigner      Boolean?
+}

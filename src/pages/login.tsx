@@ -12,7 +12,9 @@ const Login = () => {
 
   // Redirect to /profile if the user is logged in
   useEffect(() => {
-    user?.issuer && Router.push("/profile");
+    user?.issuer && Router.push({
+      pathname: "/profile"
+    });
   }, [user]);
 
 

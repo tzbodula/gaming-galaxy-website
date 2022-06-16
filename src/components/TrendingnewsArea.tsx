@@ -83,8 +83,8 @@ const TrendingnewsArea = () => {
 
   return (
     <section className="trending-news-area">
-      <div className="container ml-64 ">
-        <div className="row grid grid-rows-1 grid-cols-2 ">
+      <div className="container xs:mx-auto sm:ml-12 md:ml-12 2xl:ml-64 ">
+        <div className="row grid xl:grid-rows-1 xl:grid-cols-2 ">
           <div className="col-lg-8">
             <div className="trending-news-head mb-40">
               <div className="hf-section-title">
@@ -92,29 +92,29 @@ const TrendingnewsArea = () => {
               </div>
               <div className="trending-news-nav bu" />
             </div>
-            <div className="grid grid-rows-1 grid-cols-2 ">
+            <div className="grid xl:grid-rows-1 xl:grid-cols-2 ">
               <div className="col-md">
                 <div className="trending-news-item overlay-item h-fit mr-3">
-                  <div className="trend-news-thumb">
+                  <div className="trend-news-thumb xs:w-screen  ">
                     <Image src={TrendPost1} alt="" />
                   </div>
                   <div className="trend-news-content">
-                    <div className="tags"><Link href="/#">GROWTH</Link></div>
-                    <span className="date">June 6, 2022</span>
-                    <h4 className="title"><Link href="/#">How to overcome camera shyness when recording</Link></h4>
+                    <div className="tags xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">GROWTH</Link></div>
+                    <span className="date xs:text-xs sm:text-sm md:text-base lg:text-lg">June 6, 2022</span>
+                    <h4 className="xs:text-xs sm:text-sm xl:text-xl "><Link href="/#">How to overcome camera shyness when recording</Link></h4>
                   </div>
                 </div>
               </div>
               <div className="col-md">
-                <Slider className="trending-news-active" {...settings}>
+                <Slider className="trending-news-active lg:mb-8 xl:mb-0 xl:ml-20 2xl:ml-4" {...settings}>
                   <div className="trending-news-item horizontal-item yellow">
                     <div className="trend-news-thumb">
                       <Link href="/#" passHref><Image src={TrendPost2} alt="" /></Link>
                     </div>
                     <div className="trend-news-content">
-                      <div className="tags"><Link href="/#">Twitch</Link></div>
-                      <span className="date">June 5, 2022</span>
-                      <h4 className="title"><Link href="/#">Why it&apos;s impossible to grow as a streamer on just Twitch alone</Link></h4>
+                      <div className="tags xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">Twitch</Link></div>
+                      <span className="date xs:text-xs sm:text-sm md:text-base lg:text-lg">June 5, 2022</span>
+                      <h4 className="xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">Why it&apos;s impossible to grow as a streamer on just Twitch alone</Link></h4>
                     </div>
                   </div>
                   <div className="trending-news-item horizontal-item blue">
@@ -122,9 +122,9 @@ const TrendingnewsArea = () => {
                       <Link href="/#" passHref><Image src={TrendPost3} alt="" /></Link>
                     </div>
                     <div className="trend-news-content">
-                      <div className="tags"><Link href="/#">Youtube</Link></div>
-                      <span className="date">June 4, 2022</span>
-                      <h4 className="title"><Link href="/#">Turning gaming content creation into an enjoyable career</Link></h4>
+                      <div className="tags xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">Youtube</Link></div>
+                      <span className="date xs:text-xs sm:text-sm md:text-base lg:text-lg">June 4, 2022</span>
+                      <h4 className="xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">Turning gaming content creation into an enjoyable career</Link></h4>
                     </div>
                   </div>
                   <div className="trending-news-item horizontal-item">
@@ -132,9 +132,9 @@ const TrendingnewsArea = () => {
                       <Link href="/#" passHref><Image src={TrendPost4} alt="" /></Link>
                     </div>
                     <div className="trend-news-content">
-                      <div className="tags"><Link href="/#">Growth</Link></div>
-                      <span className="date">June 3, 2022</span>
-                      <h4 className="title"><Link href="/#">What is and how to deal with creator burnout?</Link></h4>
+                      <div className="tags xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">Growth</Link></div>
+                      <span className="date xs:text-xs sm:text-sm md:text-base lg:text-lg">June 3, 2022</span>
+                      <h4 className="xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">What is and how to deal with creator burnout?</Link></h4>
                     </div>
                   </div>
                   <div className="trending-news-item horizontal-item blue">
@@ -142,21 +142,21 @@ const TrendingnewsArea = () => {
                       <Link href="/#" passHref><Image src={TrendPost5} alt="" /></Link>
                     </div>
                     <div className="trend-news-content">
-                      <div className="tags"><Link href="/#">Growth</Link></div>
-                      <span className="date">June 2, 2022</span>
-                      <h4 className="title"><Link href="/#">How to stay focused despite living in an hyperactive and online world</Link></h4>
+                      <div className="tags xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">Growth</Link></div>
+                      <span className="date xs:text-xs sm:text-sm md:text-base lg:text-lg">June 2, 2022</span>
+                      <h4 className="xs:text-xs sm:text-sm md:text-base lg:text-lg"><Link href="/#">How to stay focused despite living in an hyperactive and online world</Link></h4>
                     </div>
                   </div>
                 </Slider>
               </div>
             </div>
           </div>
-          <div className="pl-4 col-lg-4 col-md-7">
+          <div className="col-lg-4 col-md-7">
             <aside className="home-sidebar-news">
               <div className="hf-section-title mb-40">
-                <h4 className="title">MOST POPULAR ALL-TIME </h4>
+                <h4 className="title">MOST POPULAR</h4>
               </div>
-              <div className="row grid grid-cols-2 grid-rows-3">
+              <div className="row grid xl:grid-cols-2 xl:grid-rows-3">
                 <div className="col-sm-6">
                   <div className="sidebar-popular-item">
                     <div className="sp-thumb">
@@ -166,9 +166,9 @@ const TrendingnewsArea = () => {
                 </div>
                 <div className="col-sm-6">
                   <div className="sidebar-popular-item">
-                    <div className="sp-content w-1/2 -ml-24 mt-6">
-                      <span className="date">1,345,782 views</span>
-                      <h6 className="title"><Link href="/#">How to properly network as a content creator</Link></h6>
+                    <div className="sp-content xl:w-1/2 xl:-ml-24 xl:mt-6">
+                      <span className="date xs:text-xs sm:text-sm md:text-base">1,345,782 views</span>
+                      <h6 className="xs:text-sm sm:text-base md:text-lg"><Link href="/#">How to properly network as a content creator</Link></h6>
                     </div>
                   </div>
                 </div>
@@ -181,9 +181,9 @@ const TrendingnewsArea = () => {
                 </div>
                 <div className="col-sm-6">
                   <div className="sidebar-popular-item">
-                    <div className="sp-content w-1/2 -ml-24 ">
-                      <span className="date">894,231 Views</span>
-                      <h6 className="title"><Link href="/#" passHref>The best budget PC setup for livestreaming</Link></h6>
+                    <div className="sp-content xl:w-1/2 xl:-ml-24 ">
+                      <span className="date xs:text-xs sm:text-sm md:text-base">894,231 Views</span>
+                      <h6 className="xs:text-sm sm:text-base md:text-lg"><Link href="/#" passHref>The best budget PC setup for livestreaming</Link></h6>
                     </div>
                   </div>
                 </div>
@@ -196,9 +196,9 @@ const TrendingnewsArea = () => {
                 </div>
                 <div className="col-sm-6">
                   <div className="sidebar-popular-item">
-                    <div className="sp-content w-1/2 -ml-24 ">
-                      <span className="date">754,137 Views</span>
-                      <h6 className="title"><Link href="/#" passHref>Matching your branding with your personality</Link></h6>
+                    <div className="sp-content xl:w-1/2 xl:-ml-24 ">
+                      <span className="date xs:text-xs sm:text-sm md:text-base">754,137 Views</span>
+                      <h6 className="xs:text-sm sm:text-base md:text-lg"><Link href="/#" passHref>Matching your branding with your personality</Link></h6>
                     </div>
                   </div>
                 </div>
